@@ -7,7 +7,7 @@ const client = new Client({
     ],
 });
 
-const TOKEN = 'YOUR_BOT_TOKEN';
+const TOKEN = 'MTI5Nzk5MTg4NjkwODQyODQ0MA.Gnj81Q.qV-bxHm8raiP8ZCsjB2srEy-F_CNpzloLnj1Yo';
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -92,4 +92,4 @@ client.on('messageCreate', (message) => {
     }
 });
 
-client.login(TOKEN);
+client.login(1297991886908428440);
